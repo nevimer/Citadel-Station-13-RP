@@ -70,6 +70,8 @@ GLOBAL_DATUM_INIT(overmap_event_handler, /decl/overmap_event_handler, new)
 			return T
 
 /decl/overmap_event_handler/proc/start_hazard(var/obj/effect/overmap/visitable/ship/ship, var/obj/effect/overmap/event/hazard)	// Make these accept both hazards or events
+	if(!ship.map_z)
+		return
 	if(!(ship in ship_events))
 		ship_events += ship
 
