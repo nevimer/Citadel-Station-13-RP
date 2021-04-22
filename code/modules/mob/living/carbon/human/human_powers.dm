@@ -288,6 +288,14 @@
 		if(!T || L == src || L.stat == DEAD || is_below_sound_pressure(T))
 			continue
 		heard_something = TRUE
+		var/image/ping_image = image(icon = 'icons/effects/effects.dmi', icon_state = "shuttle_warning", loc = src)
+		ping_image.plane = ABOVE_PLANE
+		ping_image.layer = SCREEN_LAYER
+		ping_image.pixel_x = (T.x - rand(-1,1) - src.x) * WORLD_ICON_SIZE
+		ping_image.pixel_y = (T.y - rand(-1,1) - src.y) * WORLD_ICON_SIZE
+		SEND_IMAGE(src, ping_image)
+		spawn(3 SECONDS)
+			qdel(ping_image)
 		var/feedback = list()
 		feedback += "<span class='notice'>There are noises of movement "
 		var/direction = get_dir(src, L)
