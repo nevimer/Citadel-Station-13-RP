@@ -288,7 +288,7 @@
 		if(!T || L == src || L.stat == DEAD || is_below_sound_pressure(T))
 			continue
 		heard_something = TRUE
-		var/image/ping_image = image(icon = 'icons/effects/effects.dmi', icon_state = "shuttle_warning", loc = src)
+		var/image/ping_image = image(icon = 'icons/effects/effects.dmi', icon_state = "sonar_ping", loc = src)
 		ping_image.plane = ABOVE_PLANE
 		ping_image.layer = SCREEN_LAYER
 		ping_image.pixel_x = (T.x - rand(-1,1) - src.x) * WORLD_ICON_SIZE
