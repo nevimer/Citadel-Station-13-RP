@@ -1,0 +1,1650 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aw" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 1;
+	volume_rate = 700
+	},
+/turf/simulated/floor/reinforced/phoron,
+/area/engineering/engine_room)
+"aC" = (
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -28
+	},
+/obj/structure/cable/cyan{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"aP" = (
+/obj/machinery/door/firedoor/glass/hidden/steel{
+	dir = 2
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"bP" = (
+/turf/template_noop,
+/area/template_noop)
+"cb" = (
+/obj/machinery/portable_atmospherics/canister/phoron,
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"cx" = (
+/turf/simulated/floor/plating,
+/area/engineering/engine_room)
+"cR" = (
+/obj/machinery/atmospherics/binary/pump/high_power{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"dq" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"el" = (
+/obj/machinery/camera/network/engine,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 1;
+	volume_rate = 700
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"fS" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"gd" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging,
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"gC" = (
+/obj/machinery/door/firedoor/glass,
+/obj/structure/grille,
+/obj/structure/window/phoronreinforced/full,
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"he" = (
+/obj/machinery/power/generator{
+	anchored = 1;
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"hh" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"hF" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"im" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"ix" = (
+/obj/machinery/shield_diffuser,
+/obj/machinery/door/blast/regular{
+	dir = 2;
+	id = "SupermatterVent";
+	layer = 3.3;
+	name = "Reactor Blast Door"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"iB" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/machinery/camera/network/engine,
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"iJ" = (
+/turf/template_noop,
+/area/space)
+"iL" = (
+/obj/machinery/meter,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"jo" = (
+/obj/machinery/alarm{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"jx" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"jy" = (
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
+	frequency = 1441;
+	id = "atmos_out";
+	power_rating = 5000;
+	use_power = 1;
+	volume_rate = 700
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"kc" = (
+/obj/structure/window/phoronreinforced,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 4
+	},
+/obj/machinery/igniter{
+	id = "engine"
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"kz" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction,
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"kJ" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/machinery/camera/network/engine{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"kR" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 1;
+	volume_rate = 700
+	},
+/turf/simulated/floor/reinforced/n20,
+/area/engineering/engine_room)
+"lG" = (
+/obj/structure/sign/vacuum,
+/turf/simulated/wall/r_wall,
+/area/engineering/engine_room)
+"mK" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"nd" = (
+/obj/machinery/camera/network/engineering{
+	dir = 4
+	},
+/obj/machinery/button/remote/blast_door{
+	desc = "A remote control-switch for the engine charging port.";
+	dir = 4;
+	id = "SupermatterPort";
+	name = "Reactor Blast Doors";
+	pixel_x = -26;
+	pixel_y = -5;
+	req_access = list(10)
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/yellow{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"np" = (
+/obj/machinery/light{
+	dir = 8;
+	light_range = 12
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"nu" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"ob" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 1;
+	volume_rate = 700
+	},
+/turf/simulated/floor/reinforced/oxygen,
+/area/engineering/engine_room)
+"oG" = (
+/obj/machinery/atmospherics/unary/vent_pump/engine,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"oU" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"pA" = (
+/obj/structure/sign/warning/radioactive{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"pH" = (
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"pN" = (
+/obj/machinery/atmospherics/unary/vent_scrubber{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"rE" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"sm" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red,
+/obj/machinery/door/firedoor/glass,
+/obj/structure/grille,
+/obj/structure/window/phoronreinforced/full,
+/obj/machinery/door/blast/regular{
+	dir = 2;
+	id = "SupermatterPort";
+	layer = 3.3;
+	name = "Reactor Blast Door"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"tr" = (
+/obj/machinery/meter,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"tH" = (
+/obj/machinery/atmospherics/trinary/atmos_filter/m_filter{
+	dir = 8;
+	filter_type = 0
+	},
+/turf/simulated/wall/r_wall,
+/area/engineering/engine_room)
+"tM" = (
+/obj/structure/sign/warning/radioactive{
+	pixel_x = -32
+	},
+/obj/machinery/atmospherics/binary/pump/high_power,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"tN" = (
+/obj/machinery/button/remote/blast_door{
+	desc = "A remote control-switch for the engine charging port.";
+	id = "SupermatterVent";
+	name = "REACTOR EMERGENCY VENTING";
+	pixel_y = -26;
+	req_access = list(10)
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"tT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"ug" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 8
+	},
+/turf/simulated/wall/r_lead,
+/area/engineering/engine_room)
+"uC" = (
+/obj/machinery/atmospherics/pipe/vent/high_volume{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"vU" = (
+/obj/machinery/door/airlock/vault{
+	name = "REACTOR ROOM";
+	req_one_access = list(10)
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"wh" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/red,
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"ww" = (
+/obj/item/pipe/binary/bendable{
+	dir = 6
+	},
+/obj/machinery/button/remote/driver{
+	dir = 8;
+	id = "engine";
+	name = "Ignite";
+	pixel_x = -21
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"wE" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"wX" = (
+/obj/structure/dispenser/phoron,
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"xv" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plating,
+/area/engineering/engine_room)
+"xC" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"zb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"ze" = (
+/obj/machinery/door/airlock/maintenance/engi,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/engineering/engine_room)
+"zl" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/button/remote/blast_door{
+	desc = "A remote control-switch for the engine charging port.";
+	dir = 8;
+	id = "SupermatterPort";
+	name = "Reactor Blast Doors";
+	pixel_x = 26;
+	pixel_y = 26;
+	req_access = list(10)
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"zx" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -26
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"zF" = (
+/obj/item/radio/intercom{
+	dir = 1;
+	name = "Station Intercom (General)";
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"zX" = (
+/obj/machinery/atmospherics/trinary/atmos_filter/m_filter{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"AE" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"AI" = (
+/obj/machinery/door/firedoor/glass/hidden/steel{
+	dir = 2
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Bh" = (
+/obj/machinery/camera/network/engine{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"Cd" = (
+/obj/machinery/atmospherics/unary/vent_pump/engine,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/reinforced/phoron,
+/area/engineering/engine_room)
+"Cg" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Cp" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/reinforced/oxygen,
+/area/engineering/engine_room)
+"CH" = (
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/reinforced/oxygen,
+/area/engineering/engine_room)
+"Dl" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/machinery/atmospherics/binary/dp_vent_pump/high_volume,
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"Et" = (
+/obj/structure/table/standard,
+/obj/item/multitool,
+/obj/item/tool/wrench,
+/obj/item/stack/cable_coil/yellow,
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"Ey" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"Fu" = (
+/obj/machinery/atmospherics/binary/pump,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"GG" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/structure/cable/cyan{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 8
+	},
+/obj/machinery/door/airlock/vault{
+	name = "REACTOR ROOM";
+	req_one_access = list(10)
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"GK" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"Hd" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/meson,
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"HL" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"IO" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"IR" = (
+/obj/machinery/door/firedoor/glass,
+/obj/structure/grille,
+/obj/structure/window/phoronreinforced/full,
+/obj/machinery/door/blast/regular{
+	dir = 2;
+	id = "SupermatterPort";
+	layer = 3.3;
+	name = "Reactor Blast Door"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"IT" = (
+/obj/machinery/door/blast/regular{
+	dir = 2;
+	id = "SupermatterVent";
+	layer = 3.3;
+	name = "Reactor Blast Door"
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"Jb" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/cyan{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Jk" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/nitrous_oxide,
+/turf/simulated/floor/reinforced/n20,
+/area/engineering/engine_room)
+"JL" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"JT" = (
+/obj/machinery/atmospherics/binary/circulator{
+	anchored = 1;
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Kg" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/reinforced/phoron,
+/area/engineering/engine_room)
+"Kw" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 8
+	},
+/obj/machinery/alarm/nobreach,
+/turf/simulated/wall/r_lead,
+/area/engineering/engine_room)
+"KB" = (
+/obj/machinery/door/blast/regular{
+	density = 0;
+	icon_state = "pdoor0";
+	id = "EngineRadiatorViewport";
+	name = "Engine Radiator Viewport Shutter";
+	opacity = 0
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"KM" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/vault{
+	name = "REACTOR ROOM";
+	req_one_access = list(10)
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"KN" = (
+/obj/machinery/light,
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"KX" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Lz" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/phoron,
+/turf/simulated/floor/reinforced/phoron,
+/area/engineering/engine_room)
+"LI" = (
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/reinforced/n20,
+/area/engineering/engine_room)
+"Mu" = (
+/obj/machinery/atmospherics/omni/mixer,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"MW" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 10
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"MX" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/vault{
+	name = "REACTOR ROOM";
+	req_one_access = list(10)
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Nq" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Nz" = (
+/obj/structure/fans/tiny,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"NK" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"NU" = (
+/obj/structure/table/standard,
+/obj/machinery/recharger,
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"Os" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/fuel{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Ov" = (
+/obj/machinery/button/remote/blast_door{
+	desc = "A remote control-switch for the engine radiator viewport shutters.";
+	id = "EngineRadiatorViewport";
+	name = "Engine Radiator Viewport Shutters";
+	pixel_x = -25;
+	req_access = list(10)
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Ow" = (
+/obj/machinery/door/firedoor/glass,
+/obj/structure/grille,
+/obj/structure/window/phoronreinforced/full,
+/obj/machinery/door/blast/regular{
+	dir = 2;
+	id = "SupermatterPort";
+	layer = 3.3;
+	name = "Reactor Blast Door"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"OA" = (
+/obj/machinery/door/firedoor/glass,
+/obj/structure/grille,
+/obj/structure/window/phoronreinforced/full,
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/sign/warning/radioactive{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"OC" = (
+/obj/structure/fans/tiny,
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"OF" = (
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced,
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"PF" = (
+/turf/simulated/wall/r_lead,
+/area/engineering/engine_room)
+"PI" = (
+)
+"PN" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	dir = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Qc" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"QV" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 8
+	},
+/obj/machinery/partyalarm,
+/turf/simulated/wall/r_lead,
+/area/engineering/engine_room)
+"QW" = (
+/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"QZ" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/alarm{
+	pixel_y = 22
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"Rb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"Rf" = (
+/obj/machinery/atmospherics/binary/pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"RB" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 6
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"RS" = (
+/obj/machinery/atmospherics/trinary/atmos_filter/m_filter{
+	dir = 8;
+	filter_type = 1
+	},
+/turf/simulated/wall/r_wall,
+/area/engineering/engine_room)
+"Sf" = (
+/obj/machinery/door/firedoor,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/vault{
+	name = "REACTOR ROOM";
+	req_one_access = list(10)
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Sk" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Sy" = (
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"SC" = (
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Tp" = (
+/obj/machinery/atmospherics/unary/vent_pump/engine,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/reinforced/oxygen,
+/area/engineering/engine_room)
+"Tr" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"TC" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"TH" = (
+/obj/machinery/atmospherics/trinary/atmos_filter/m_filter{
+	dir = 8
+	},
+/turf/simulated/wall/r_wall,
+/area/engineering/engine_room)
+"TX" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Ug" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/firedoor/glass/hidden/steel{
+	dir = 2
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Uq" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"UR" = (
+/obj/machinery/button/remote/blast_door{
+	desc = "A remote control-switch for the engine charging port.";
+	dir = 4;
+	id = "SupermatterPort";
+	name = "Reactor Blast Doors";
+	pixel_x = -26;
+	pixel_y = -25;
+	req_access = list(10)
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible,
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"Vm" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"VE" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"VF" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 10
+	},
+/turf/simulated/wall/r_wall,
+/area/engineering/engine_room)
+"VM" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall,
+/area/engineering/engine_room)
+"Wc" = (
+/obj/machinery/atmospherics/unary/vent_pump/engine,
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/reinforced/n20,
+/area/engineering/engine_room)
+"Wl" = (
+/obj/machinery/atmospherics/binary/circulator{
+	anchored = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"WT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Xh" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Xq" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"Yd" = (
+/obj/machinery/door/blast/regular{
+	dir = 2;
+	id = "SupermatterPort";
+	layer = 3.3;
+	name = "Reactor Blast Door"
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"Yi" = (
+/obj/machinery/button/remote/driver{
+	dir = 8;
+	id = "engine";
+	name = "Ignite";
+	pixel_x = -21
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 4
+	},
+/obj/structure/window/phoronreinforced,
+/turf/simulated/floor/tiled/techmaint,
+/area/engineering/engine_room)
+"Yp" = (
+/turf/simulated/wall/r_wall,
+/area/engineering/engine_room)
+"YC" = (
+/obj/machinery/button/remote/blast_door{
+	desc = "A remote control-switch for the engine charging port.";
+	dir = 4;
+	id = "SupermatterPort";
+	name = "Reactor Blast Doors";
+	pixel_x = -26;
+	pixel_y = -5;
+	req_access = list(10)
+	},
+/obj/machinery/light,
+/obj/item/radio/intercom{
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"YS" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 4
+	},
+/obj/machinery/door/firedoor/glass,
+/obj/structure/grille,
+/obj/structure/window/phoronreinforced/full,
+/obj/machinery/door/blast/regular{
+	dir = 2;
+	id = "SupermatterPort";
+	layer = 3.3;
+	name = "Reactor Blast Door"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"YU" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/engineering/engine_room)
+"YX" = (
+/obj/machinery/atmospherics/trinary/atmos_filter/m_filter{
+	dir = 8;
+	filter_type = 4
+	},
+/turf/simulated/wall/r_wall,
+/area/engineering/engine_room)
+"Zs" = (
+/obj/structure/window/phoronreinforced{
+	dir = 1
+	},
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+"ZP" = (
+/obj/structure/window/phoronreinforced,
+/obj/structure/window/phoronreinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging{
+	dir = 5
+	},
+/turf/simulated/floor/reinforced,
+/area/engineering/engine_room)
+
+(1,1,1) = {"
+iJ
+iJ
+iJ
+iJ
+iJ
+Yp
+Yp
+Yp
+lG
+IT
+lG
+Yp
+Yp
+Yp
+iJ
+iJ
+iJ
+iJ
+PI
+"}
+(2,1,1) = {"
+iJ
+iJ
+iJ
+iJ
+iJ
+Yp
+Yi
+zx
+gC
+uC
+gC
+pH
+pH
+Yp
+iJ
+iJ
+iJ
+iJ
+iJ
+"}
+(3,1,1) = {"
+iJ
+iJ
+iJ
+iJ
+iJ
+Yp
+QZ
+pH
+gC
+Uq
+gC
+pH
+KN
+Yp
+iJ
+iJ
+iJ
+iJ
+iJ
+"}
+(4,1,1) = {"
+Yp
+KB
+KB
+KB
+Yp
+Yp
+wX
+tN
+Yp
+ix
+Yp
+pH
+pH
+Yp
+KB
+KB
+KB
+Yp
+Yp
+"}
+(5,1,1) = {"
+Yp
+Cg
+zX
+cR
+Ov
+np
+cb
+pH
+Yp
+Uq
+Yp
+iB
+pH
+cx
+AI
+SC
+JL
+jo
+Yp
+"}
+(6,1,1) = {"
+ze
+Nq
+JT
+Jb
+Rf
+KX
+VE
+AE
+gC
+Uq
+gC
+pH
+AE
+cx
+AI
+SC
+tT
+Os
+vU
+"}
+(7,1,1) = {"
+Yp
+zF
+he
+YU
+PN
+iL
+Tr
+Ey
+OC
+Qc
+Nz
+Rb
+zb
+xv
+Ug
+WT
+rE
+aC
+Yp
+"}
+(8,1,1) = {"
+Yp
+tr
+Wl
+nu
+Sk
+nu
+Hd
+kJ
+gC
+zl
+OA
+Et
+NU
+Yp
+Yp
+Yp
+Sf
+GG
+Yp
+"}
+(9,1,1) = {"
+Yp
+jx
+xC
+xC
+im
+mK
+ug
+PF
+PF
+Yd
+PF
+PF
+PF
+Yp
+bP
+bP
+bP
+bP
+bP
+"}
+(10,1,1) = {"
+Yp
+Zs
+GK
+SC
+oU
+TX
+ug
+NK
+ww
+UR
+Bh
+NK
+PF
+Yp
+bP
+bP
+bP
+bP
+bP
+"}
+(11,1,1) = {"
+TH
+el
+oG
+SC
+oU
+Vm
+ug
+RB
+kz
+gd
+ZP
+Sy
+PF
+Yp
+bP
+bP
+bP
+bP
+bP
+"}
+(12,1,1) = {"
+VM
+Cp
+CH
+YU
+IO
+jx
+sm
+wh
+hF
+pN
+kc
+Sy
+PF
+Yp
+bP
+bP
+bP
+bP
+bP
+"}
+(13,1,1) = {"
+RS
+ob
+Tp
+Fu
+dq
+TC
+Kw
+MW
+Dl
+jy
+OF
+Sy
+PF
+Yp
+bP
+bP
+bP
+bP
+bP
+"}
+(14,1,1) = {"
+VM
+Jk
+LI
+SC
+QW
+dq
+QV
+hh
+Sy
+Uq
+Uq
+hh
+PF
+Yp
+bP
+bP
+bP
+bP
+bP
+"}
+(15,1,1) = {"
+YX
+kR
+Wc
+Fu
+dq
+wE
+ug
+PF
+IR
+Ow
+YS
+PF
+PF
+Yp
+bP
+bP
+bP
+bP
+bP
+"}
+(16,1,1) = {"
+VM
+Lz
+Kg
+SC
+QW
+Mu
+nd
+tM
+xC
+Xh
+aP
+pA
+YC
+Yp
+bP
+bP
+bP
+bP
+bP
+"}
+(17,1,1) = {"
+tH
+aw
+Cd
+Fu
+nu
+fS
+SC
+SC
+SC
+SC
+AI
+SC
+HL
+Yp
+bP
+bP
+bP
+bP
+bP
+"}
+(18,1,1) = {"
+VF
+Xq
+SC
+SC
+SC
+SC
+SC
+SC
+SC
+SC
+AI
+SC
+SC
+MX
+bP
+bP
+bP
+bP
+bP
+"}
+(19,1,1) = {"
+Yp
+SC
+SC
+SC
+SC
+SC
+SC
+SC
+SC
+SC
+SC
+SC
+SC
+KM
+bP
+bP
+bP
+bP
+bP
+"}

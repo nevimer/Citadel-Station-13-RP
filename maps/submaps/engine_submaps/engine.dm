@@ -38,6 +38,11 @@
 	desc = "The Fission Reactor"
 	mappath = "_maps/templates/engines/triumph/triumph_engine_fission.dmm"
 
+/datum/map_template/engine/burnchamber
+	name = "EngineSubmap_Burn"
+	desc = "Hell's Fury"
+	mappath = "_maps/templates/engines/triumph/triumph_engine_burnchamber.dmm"
+
 // Landmark for where to load in the engine on permament map
 /obj/effect/landmark/engine_loader
 	name = "Engine Loader"
