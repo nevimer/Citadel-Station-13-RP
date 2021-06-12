@@ -1640,3 +1640,100 @@
 	alt_farmanimals -= src
 
 	. = ..()
+
+/datum/riding/human
+	keytype = /obj/item/material/twohanded/fluff/riding_crop // Crack!
+	nonhuman_key_exemption = FALSE	// If true, nonhumans who can't hold keys don't need them, like borgs and simplemobs.
+	key_name = "a riding crop"		// What the 'keys' for the thing being rided on would be called.
+	only_one_driver = TRUE			// If true, only the person in 'front' (first on list of riding mobs) can drive.
+
+/datum/riding/human/handle_vehicle_layer()
+	ridden.layer = initial(ridden.layer)
+
+/datum/riding/human/ride_check(mob/living/M)
+	var/mob/living/L = ridden
+	if(L.stat)
+		force_dismount(M)
+		return FALSE
+	return TRUE
+
+/datum/riding/human/force_dismount(mob/M)
+	. =..()
+	ridden.visible_message("<span class='notice'>[M] stops riding [ridden]!</span>")
+
+//Hoooo boy.
+/datum/riding/human/get_offsets(pass_index) // list(dir = x, y, layer)
+	var/mob/living/L = ridden
+	var/scale = L.size_multiplier
+
+	var/list/values = list(
+		"[NORTH]" = list(0, 5*scale, ABOVE_MOB_LAYER),
+		"[SOUTH]" = list(0, 5*scale, BELOW_MOB_LAYER),
+		"[EAST]" = list(-5*scale, 5*scale, ABOVE_MOB_LAYER),
+		"[WEST]" = list(5*scale, 5*scale, ABOVE_MOB_LAYER))
+
+	return values
+
+
+
+
+/mob/living/carbon/human/Initialize(mapload, unfinished = FALSE)
+	. = ..()
+	riding_datum = new /datum/riding/human(src)
+
+/mob/living/carbon/human/buckle_mob(mob/living/M, forced = FALSE, check_loc = TRUE)
+	if(forced)
+		return ..() // Skip our checks
+	if(lying)
+		return FALSE
+	if(!ishuman(M))
+		return FALSE
+	if(M in buckled_mobs)
+		return FALSE
+	if(M.size_multiplier > size_multiplier * 1.2)
+		to_chat(src,"<span class='warning'>This isn't a pony show! You need to be bigger for them to ride.</span>")
+		return FALSE
+
+	var/mob/living/carbon/human/H = M
+
+	if(isTaurTail(H.tail_style))
+		to_chat(src,"<span class='warning'>Too many legs. TOO MANY LEGS!!</span>")
+		return FALSE
+	if(M.loc != src.loc)
+		if(M.Adjacent(src))
+			M.forceMove(get_turf(src))
+
+	. = ..()
+	if(.)
+		buckled_mobs[M] = "riding"
+
+/mob/living/carbon/human/MouseDrop_T(mob/living/M, mob/living/user) //Prevention for forced relocation caused by can_buckle. Base proc has no other use.
+	return
+
+/mob/living/carbon/human/attack_hand(mob/user as mob)
+	if(LAZYLEN(buckled_mobs))
+		//We're getting off!
+		if(user in buckled_mobs)
+			riding_datum.force_dismount(user)
+		//We're kicking everyone off!
+		if(user == src)
+			for(var/rider in buckled_mobs)
+				riding_datum.force_dismount(rider)
+	else
+		. = ..()
+
+/mob/living/carbon/human/proc/fireman_carry(var/mob/living/M in living_mobs(1))
+	set name = "Fireman Carry"
+	set category = "Abilities"
+	set desc = "Let people ride on you."
+
+	if(LAZYLEN(buckled_mobs))
+		for(var/rider in buckled_mobs)
+			riding_datum.force_dismount(rider)
+		return
+	if (stat != CONSCIOUS)
+		return
+	if(!can_buckle || !istype(M) || !M.Adjacent(src) || M.buckled)
+		return
+	if(buckle_mob(M))
+		visible_message("<span class='notice'>[M] starts riding [name]!</span>")
