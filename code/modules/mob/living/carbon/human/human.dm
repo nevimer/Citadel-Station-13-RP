@@ -20,6 +20,11 @@
 	var/active_regen = FALSE //Used for the regenerate proc in human_powers.dm
 	var/active_regen_delay = 300
 	var/spam_flag = FALSE	//throws byond:tm: errors if placed in human/emote, but not here
+	var/can_ride = 1
+	max_buckled_mobs = 1 //Yeehaw
+	can_buckle = TRUE
+	buckle_movable = TRUE
+	buckle_lying = FALSE
 
 /mob/living/carbon/human/Initialize(mapload, var/new_species = null)
 	if(!dna)
@@ -1686,8 +1691,6 @@
 		return ..() // Skip our checks
 	if(lying)
 		return FALSE
-	if(!ishuman(M))
-		return FALSE
 	if(M in buckled_mobs)
 		return FALSE
 	if(M.size_multiplier > size_multiplier * 1.2)
@@ -1696,9 +1699,6 @@
 
 	var/mob/living/carbon/human/H = M
 
-	if(isTaurTail(H.tail_style))
-		to_chat(src,"<span class='warning'>Too many legs. TOO MANY LEGS!!</span>")
-		return FALSE
 	if(M.loc != src.loc)
 		if(M.Adjacent(src))
 			M.forceMove(get_turf(src))
@@ -1722,7 +1722,7 @@
 	else
 		. = ..()
 
-/mob/living/carbon/human/proc/fireman_carry(var/mob/living/M in living_mobs(1))
+/mob/living/carbon/human/verb/fireman_carry(var/mob/living/M in living_mobs(1))
 	set name = "Fireman Carry"
 	set category = "Abilities"
 	set desc = "Let people ride on you."
